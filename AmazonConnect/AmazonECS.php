@@ -63,7 +63,7 @@ class AmazonECS
      *
      * @var string
      */
-    protected $webserviceEndpoint = 'https://webservices.%%COUNTRY%%/onca/soap?Service=AWSECommerceService';
+    protected $webserviceEndpoint = 'https://webservices.amazon.%%COUNTRY%%/onca/soap?Service=AWSECommerceService';
 
     /**
      * @param string $accessKey

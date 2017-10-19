@@ -3,7 +3,7 @@ require_once 'AmazonConnect/AmazonECS.php';
 
 $params = $_GET;
 $params = array(
-    'marketplace' => 'amazon.de',
+    'marketplace' => 'de',
     'tag' => 'test02dca-20',
     'access_key_id' => 'AKIAJBEEAKRZCLDJQDVA',
     'secret_access_key' => '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',
