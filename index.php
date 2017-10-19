@@ -1,5 +1,5 @@
 <?php
-require_once 'AmazonConnect/AmazonECS.php';
+//require_once 'AmazonConnect/AmazonECS.php';
 
 $params = $_GET;
 $params = array(
