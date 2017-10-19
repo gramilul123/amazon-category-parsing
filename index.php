@@ -9,8 +9,8 @@ $params = array(
     'secret_access_key' => 'MUaTEeng10fWlE8pMr5lk99bPOuHVRIupVu/Y4vO',
     'browse_node' => '567135031'
 );
-
-$result = array();
+print_r($params);
+/*$result = array();
 
 if (empty($params['marketplace']) && empty($params['tag']) && empty($params['access_key_id']) && empty($params['secret_access_key']) && empty($params['browse_node'])) {
     $result = array();
@@ -23,5 +23,5 @@ try {
 } catch (\Exception $e) {
     $result = array('error' => $e->getMessage());
 }
-print_r($result);
+print_r($result);*/
 ?>
